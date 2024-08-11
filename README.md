@@ -35,13 +35,13 @@ El algoritmo sigue estos pasos:
 # Implementación en Python
 El siguiente código implementa el algoritmo de Viterbi en Python y visualiza los resultados:
 [Viterbi.py](https://github.com/Gimi-code/Algoritmo-Viterbi.git)
-### Conclusiones
+# Conclusiones
 ## Aplicación del Algoritmo de Viterbi en un Problema Empresarial
-# Contexto del Problema
+### Contexto del Problema
 Una empresa de telecomunicaciones ofrece servicios de transmisión de datos a sus clientes. Durante la transmisión, los datos pueden sufrir interferencias debido a ruido o perturbaciones en la señal, lo que provoca errores en los datos recibidos. La integridad de los datos es crucial para garantizar un servicio de calidad, y la empresa necesita una solución eficaz para corregir estos errores antes de que lleguen al usuario final.
 ## Solución Propuesta con el Algoritmo de Viterbi
 El algoritmo de Viterbi se puede aplicar para la decodificación de códigos convolucionales, un método comúnmente utilizado en telecomunicaciones para la corrección de errores. Los pasos específicos serían:
-# Modelado del HMM:
+### Modelado del HMM:
 - Estados: Los posibles estados de un codificador convolucional que se emplea en la transmisión de datos.
 - Transiciones: Probabilidades de transición entre los estados del codificador.
 - Emisiones: Probabilidades de recibir un símbolo particular dada la transmisión de un estado específico.
